@@ -30,7 +30,7 @@ public class servicoUsuario {
 	@Path("{id}")
 	@GET
 	@Produces("application/json")
-	public Response getPessoa(@PathParam("id") int id) {
+	public Response getUsuario(@PathParam("id") int id) {
 		for (Usuario u: usuarios) {
 			if (u.getId() == id) {
 				return Response.status(200).entity(u).type(MediaType.APPLICATION_JSON).build();
