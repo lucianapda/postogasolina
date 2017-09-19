@@ -13,8 +13,9 @@ import javax.ws.rs.core.Response;
 import modelo.Usuario;
 
 
+
 @Path("/usuarios")
-public class servicoUsuario {
+public class ServicoUsuario {
 	private static ArrayList<Usuario> usuarios = new ArrayList<>();
 	
 	static {

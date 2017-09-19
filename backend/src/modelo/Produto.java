@@ -5,29 +5,22 @@ import java.sql.Date;
 public class Produto {
 
 	private int id;
-	private int idProduto;
+	private String nome;
 	private Double quantidade;
 	private Double valor;
 	private String descricao;
 	
 	public Produto() {
+		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Produto(int idProduto, Double quantidade, Double valor, String descricao) {
+	public Produto(String nome, Double quantidade, Double valor, String descricao) {
 		super();
-		this.idProduto = idProduto;
+		this.nome = nome;
 		this.quantidade = quantidade;
 		this.valor = valor;
 		this.descricao = descricao;
-	}
-
-	public int getIdProduto() {
-		return idProduto;
-	}
-
-	public void setIdProduto(int idProduto) {
-		this.idProduto = idProduto;
 	}
 
 	public Double getQuantidade() {
