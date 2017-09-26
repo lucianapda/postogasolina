@@ -1,7 +1,8 @@
 package modelo;
 
-import java.sql.Date;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class Venda {
 
 	
@@ -9,14 +10,14 @@ public class Venda {
 	private int idProduto;
 	private Double quantidade;
 	private Double valor;
-	private Date data;
+	private long data;
 	private boolean statusPagamento;
 	
 	public Venda() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Venda(int idProduto, Double quantidade, Double valor, Date data, boolean statusPagamento) {
+	public Venda(int idProduto, Double quantidade, Double valor, long data, boolean statusPagamento) {
 		super();
 		this.idProduto = idProduto;
 		this.quantidade = quantidade;
@@ -49,11 +50,11 @@ public class Venda {
 		this.valor = valor;
 	}
 
-	public Date getData() {
+	public long getData() {
 		return data;
 	}
 
-	public void setData(Date data) {
+	public void setData(long data) {
 		this.data = data;
 	}
 
