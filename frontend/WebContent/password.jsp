@@ -16,10 +16,10 @@
 		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 		
-<title>GSM Cadastro</title>
+<title>GSM Senha</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/singin.css" type="text/css">
+<link rel="stylesheet" href="css/password.css" type="text/css">
 
 </head>
 <body>
@@ -83,18 +83,9 @@
 							</div>
 						</div>
 
-						<div class="form-group">
-							<label for="confirm" class="cols-sm-2 control-label">Descrição</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa  fa-commenting fa-lg" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="confirm" id="confirm"  placeholder="Digite uma descição"/>
-								</div>
-							</div>
-						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Alterar</button>
 						</div>
 					</form>
 				</div>

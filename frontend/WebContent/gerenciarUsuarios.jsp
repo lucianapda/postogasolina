@@ -4,22 +4,25 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
-		<!-- Website CSS style -->
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<!-- Website CSS style -->
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
-		<!-- Website Font style -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-		
-		<!-- Google Fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-		
-<title>GSM Cadastro</title>
+<!-- Website Font style -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Passion+One'
+	rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oxygen'
+	rel='stylesheet' type='text/css'>
+
+<title>GSM Usuarios</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/singin.css" type="text/css">
+<link rel="stylesheet" href="css/gerenciarUsuarios.css" type="text/css">
 
 </head>
 <body>
@@ -36,12 +39,14 @@
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="index.jsp">Login<span class="sr-only">(current)</span>
+		<li class="nav-link"><a class="nav-link" href="index.jsp">Login<span
+				class="sr-only">(current)</span>
 		</a></li>
 		</ul1>
-
 	</div>
 	</nav>
+
+
 
 <div class="container">
 			<div class="row main">
@@ -94,13 +99,48 @@
 						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Salvar</button>
 						</div>
 					</form>
 				</div>
+				
+				<div class=" col-sm-8 col-md-6 col-md-offset-6">
+				<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+				</div>
+				
 			</div>
 		</div>
 
 		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
 </body>
 </html>

@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>GSM Entrar</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/login.css" type="text/css">
+<link rel="stylesheet" href="css/index.css" type="text/css">
 
 </head>
 <body>
@@ -38,7 +38,10 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" href="inicio.jsp" type="submit" >Entrar</button>
+        <button class="btn btn-lg btn-primary btn-block" href="inicio.jsp" type="submit" >Entrar</button>      
+        <password class="login-register">
+			 <a href="password.jsp">Esqueci minha senha</a>
+	    </password>
       </form>
     </div> 
 </body>
