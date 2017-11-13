@@ -23,13 +23,10 @@
       		<li class="nav-link">
         		<a class="nav-link" href="singin.jsp">Sign In<span class="sr-only">(current)</span></a>
       		</li>    		
-
       </ul1>
- 
   </div>
 </nav>
    <div class="container">
-
       <form class="form-signin">
         <h2 class="form-signin-heading">Entrar no GSM!</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
@@ -43,8 +40,6 @@
         </div>
         <button class="btn btn-lg btn-primary btn-block" href="inicio.jsp" type="submit" >Entrar</button>
       </form>
-
     </div> 
-
 </body>
 </html>
