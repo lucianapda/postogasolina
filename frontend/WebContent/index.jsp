@@ -7,7 +7,6 @@
 <title>GSM Entrar</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css" type="text/css">
-
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

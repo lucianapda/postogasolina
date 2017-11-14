@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 <!-- Website CSS style -->
-<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 
 <!-- Website Font style -->
 <link rel="stylesheet"
@@ -104,43 +104,10 @@
 					</form>
 				</div>
 				
-				<div class=" col-sm-8 col-md-6 col-md-offset-6">
-				<table class="table">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-				</div>
-				
 			</div>
 		</div>
 
-		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
 
 </body>
 </html>
