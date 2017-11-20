@@ -40,7 +40,7 @@
 				<div class="contract-wall">
 					<img class="profile-img" src="images/user.png" alt="">
 					<h1 class="text-center login-title">Gerencimento de usuarios</h1>
-					<form class="form-signin">
+					<form class="form-signin" method="post" action="gerenciarUsuarios.jsp">
 						<button class="btn btn-lg btn-primary btn-block" type="submit">
 							Gerenciar</button>
 					</form>

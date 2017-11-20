@@ -39,7 +39,7 @@
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="index.jsp">Login<span
+		<li class="nav-link"><a class="nav-link" href="index.jsp">Logoff<span
 				class="sr-only">(current)</span>
 		</a></li>
 		</ul1>
@@ -99,7 +99,7 @@
 						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Salvar</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Salvar</button>
 						</div>
 					</form>
 				</div>

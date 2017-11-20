@@ -51,14 +51,14 @@
 	               	</div>
 	            </div> 
 				<div class="main-login main-center">
-					<form class="form-horizontal" method="post" action="#">
+					<form class="form-horizontal" method="post" action="index.jsp">
 						
 						<div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Usuario</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Digite seu usuario"/>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Digite seu usuario"required autofocus/>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="password" id="password"  placeholder="Digite sua senha"/>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Digite sua senha" required/>
 								</div>
 							</div>
 						</div>
@@ -78,7 +78,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirme sua senha"/>
+									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirme sua senha" required/>
 								</div>
 							</div>
 						</div>
@@ -88,13 +88,13 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa  fa-commenting fa-lg" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="confirm" id="confirm"  placeholder="Digite uma descição"/>
+									<input type="text" class="form-control" name="confirm" id="confirm"  placeholder="Digite uma descição" required/>
 								</div>
 							</div>
 						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
 						</div>
 					</form>
 				</div>

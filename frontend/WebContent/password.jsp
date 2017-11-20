@@ -36,7 +36,7 @@
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="index.jsp">Login<span class="sr-only">(current)</span>
+		<li class="nav-link"><a class="nav-link" href="index.jsp">Logoff<span class="sr-only">(current)</span>
 		</a></li>
 		</ul1>
 
@@ -51,14 +51,14 @@
 	               	</div>
 	            </div> 
 				<div class="main-login main-center">
-					<form class="form-horizontal" method="post" action="#">
+					<form class="form-horizontal"  method="post" action="index.jsp">
 						
 						<div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Usuario</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Digite seu usuario"/>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Digite seu usuario" required autofocus/>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="password" id="password"  placeholder="Digite sua senha"/>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Digite sua senha"required />
 								</div>
 							</div>
 						</div>
@@ -78,14 +78,14 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirme sua senha"/>
+									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirme sua senha" required/>
 								</div>
 							</div>
 						</div>
 
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Alterar</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Alterar</button>
 						</div>
 					</form>
 				</div>
