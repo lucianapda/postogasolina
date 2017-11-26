@@ -36,7 +36,7 @@
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="index.jsp">Logoff<span class="sr-only">(current)</span>
+		<li class="nav-link"><a class="nav-link" href="index.jsp">Login<span class="sr-only">(current)</span>
 		</a></li>
 		</ul1>
 

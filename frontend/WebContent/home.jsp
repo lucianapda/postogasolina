@@ -13,7 +13,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a
-		class="navbar-brand" href="index.jsp">GSM!</a>
+		class="navbar-brand" href="home.jsp">GSM!</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
 		aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -60,7 +60,7 @@
 				<div class="work-wall">
 					<img class="profile-img" src="images/stock.png" alt="">
 					<h1 class="text-center login-title">Gerenciamento de estoque</h1>
-					<form class="form-signin">
+					<form class="form-signin" method="post" action="gerenciarEstoque.jsp">
 						<button class="btn btn-lg btn-primary btn-block" type="submit">
 							Gerenciar</button>
 					</form>

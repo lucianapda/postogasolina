@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -34,8 +34,10 @@
 
 </head>
 <body>
+
+
 	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a
-		class="navbar-brand" href="index.jsp">GSM!</a>
+		class="navbar-brand" href="home.jsp">GSM!</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
 		aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -47,7 +49,7 @@
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="index.jsp">Login<span class="sr-only">(current)</span>
+		<li class="nav-link"><a class="nav-link" href="index.jsp">Logout<span class="sr-only">(current)</span>
 		</a></li>
 		</ul1>
 
@@ -62,20 +64,21 @@
 	               	</div>
 	            </div> 
 				<div class="main-login main-center">
-					<form class="form-horizontal" method="post" action="#">
+					<form class="form-horizontal" method="post" action="home.jsp">
 						
 						<div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Nome do Produto</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Informe o nome do produto"/>
+									<span class="input-group-addon"><i class="fa fa-tags fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Nome do produto" required autofocus/>
 								</div>
 							</div>
 						</div>
 
 						<div class="form-group ">
-							<button type="button"  class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
+							<button type="submit"  class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
+	
 							<script>
 							if(document.getElementById("nome").value == ""){
                              alert("Produto cadastrado com Sucesso!");
@@ -88,6 +91,8 @@
 			</div>
 		</div>
 
-		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
 </body>
 </html>
