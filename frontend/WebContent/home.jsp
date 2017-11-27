@@ -50,17 +50,27 @@
 				<div class="work-wall">
 					<img class="profile-img" src="images/sale.png" alt="">
 					<h1 class="text-center login-title">Gerencimanto de vendas</h1>
-					<form class="form-signin">
+					<form class="form-signin" method="post" action="gerenciarVendas.jsp">
 						<button class="btn btn-lg btn-primary btn-block" type="submit">
 							Gerenciar</button>
 					</form>
 				</div>
 			</div>
-						<div class="col-sm-6 col-md-4 col-md-offset-4">
+			<div class="col-sm-6 col-md-4 col-md-offset-4">
 				<div class="work-wall">
 					<img class="profile-img" src="images/stock.png" alt="">
 					<h1 class="text-center login-title">Gerenciamento de estoque</h1>
 					<form class="form-signin" method="post" action="gerenciarEstoque.jsp">
+						<button class="btn btn-lg btn-primary btn-block" type="submit">
+							Gerenciar</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-md-offset-4">
+				<div class="work-wall">
+					<img class="profile-img" src="images/new.png" alt="">
+					<h1 class="text-center login-title">Cadastro de produto</h1>
+					<form class="form-signin" method="post" action="novoProduto.jsp">
 						<button class="btn btn-lg btn-primary btn-block" type="submit">
 							Gerenciar</button>
 					</form>
