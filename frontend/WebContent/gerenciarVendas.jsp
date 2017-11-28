@@ -81,9 +81,6 @@
 
 							</div>
 							<div class="form-group ">
-						<button type="submit"
-							class="btn btn-primary btn-lg btn-block login-button">Cadastrar
-							novo Produto</button>
 					</div>
 						</div>
 					</div>
@@ -123,22 +120,7 @@
 							</div>
 						</div>
 					</div>
-					
-					<div class="form-group">
-						<label for="password" class="cols-sm-2 control-label">Status do Pagamento</label>
-						<div class="cols-sm-10">
-							<div class="input-group">
-								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <select
-									id=cdProduto>
-									<option>Selecione o status da venda:</option>
-									<option>1</option>
-									<option>0</option>
-								</select>
-					
-
-							</div>
-
+			
 					<div class="form-group ">
 						<button type="submit"
 							class="btn btn-primary btn-lg btn-block login-button">Cadastrar Compra</button>
