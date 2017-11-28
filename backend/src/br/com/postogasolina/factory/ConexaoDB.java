@@ -9,9 +9,9 @@ public class ConexaoDB {
 	public static Connection getConnection() throws Exception {
 		try {
 			String driver = "com.mysql.jdbc.Driver";
-			String url = "jdbc:mysql://mysqlportuga.unifique.com.br:3306/Limpai";
+			String url = "jdbc:mysql://localhost:3306/postgas_db";
 			String username = "root";
-			String password = "limpaidb";
+			String password = "root";
 			Class.forName(driver);
 			Connection conn = DriverManager.getConnection(url, username, password);
 			System.out.println("Connected");
