@@ -61,7 +61,7 @@
 				</div>
 			</div>
 			<div class="main-login main-center">
-				<form class="form-horizontal" method="post" action="#">
+				<form class="form-horizontal" method="post" action="home.jsp">
 
 				
 
@@ -70,7 +70,7 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <select
+									class="fa 	 fa-lg" aria-hidden="true"></i></span> <select
 									id=cdProduto>
 									<option>Selecione o Produto </option>
 									<option>Gasolina</option>
@@ -90,9 +90,9 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <input
-									type="password" class="form-control" name="confirm"
-									id="confirm" placeholder="Informe a quantidade" />
+									class="fa  fa-lg" aria-hidden="true"></i></span> <input
+									type="text" class="form-control" name="confirm"
+									id="confirm" placeholder="Informe a quantidade" required autofocus/>
 							</div>
 						</div>
 					</div>
@@ -102,9 +102,9 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <input
-									type="password" class="form-control" name="confirm"
-									id="confirm" placeholder="Informe o valor" />
+									class="fa fa-lg" aria-hidden="true"></i></span> <input
+									type="text" class="form-control" name="confirm"
+									id="confirm" placeholder="Informe o valor" required/>
 							</div>
 						</div>
 					</div>
@@ -114,9 +114,9 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <input
-									type="password" class="form-control" name="confirm"
-									id="confirm" placeholder="Informe o valor" />
+									class="fa  fa-lg" aria-hidden="true"></i></span> <input
+									type="date" class="form-control" name="confirm"
+									id="confirm" placeholder="Informe o valor" required />
 							</div>
 						</div>
 					</div>

@@ -61,7 +61,7 @@
 				</div>
 			</div>
 			<div class="main-login main-center">
-				<form class="form-horizontal" method="post" action="#">
+				<form class="form-horizontal" method="post" action="home.jsp">
 
 					<div class="form-group">
 						<label for="name" class="cols-sm-2 control-label">Fornecedor</label>
@@ -69,7 +69,7 @@
 							<div class="input-group">
 								<span class="input-group-addon"><i class="fa fa-user fa"
 									aria-hidden="true"></i></span> <input type="text" class="form-control"
-									name="name" id="name" placeholder="Digite nome fornecedor" />
+									name="name" id="name" placeholder="Digite nome fornecedor" required autofocus/>
 							</div>
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <select
+									class="fa  fa-lg" aria-hidden="true"></i></span> <select
 									id=cdProduto>
 									<option>Selecione o Produto</option>
 									<option>Gasolina</option>
@@ -99,9 +99,9 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <input
-									type="password" class="form-control" name="confirm"
-									id="confirm" placeholder="Informe a quantidade" />
+									class="fa  fa-lg" aria-hidden="true"></i></span> <input
+									type="text" class="form-control" name="confirm"
+									id="confirm" placeholder="Informe a quantidade" required/>
 							</div>
 						</div>
 					</div>
@@ -111,9 +111,9 @@
 						<div class="cols-sm-10">
 							<div class="input-group">
 								<span class="input-group-addon"><i
-									class="fa fa-lock fa-lg" aria-hidden="true"></i></span> <input
-									type="password" class="form-control" name="confirm"
-									id="confirm" placeholder="Informe o valor" />
+									class="fa  fa-lg" aria-hidden="true"></i></span> <input
+									type="text" class="form-control" name="confirm"
+									id="confirm" placeholder="Informe o valor" required/>
 							</div>
 						</div>
 					</div>
