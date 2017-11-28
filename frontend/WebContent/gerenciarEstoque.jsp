@@ -88,13 +88,9 @@
 									<option>Diesel</option>
 								</select>
 					
-
+							
 							</div>
-							<div class="form-group ">
-						<button type="submit"
-							class="btn btn-primary btn-lg btn-block login-button">Cadastrar
-							novo Produto</button>
-					</div>
+				
 						</div>
 					</div>
 
